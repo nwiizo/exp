@@ -1,7 +1,6 @@
 <div align="center">
   <div>
     <img src=".github/Screenshot_0001.jpeg" alt="exp"/>
-    <h1 align="center">exp</h1>
   </div>
 </div>
 
