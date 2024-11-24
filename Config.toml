@@ -1,0 +1,22 @@
+[[targets]]
+type = "ping"
+host = "8.8.8.8"
+description = "Google DNS"
+
+[[targets]]
+type = "ping"
+host = "1.1.1.1"
+description = "Cloudflare DNS"
+
+
+[[targets]]
+type = "http"
+url = "https://3-shake.com/"
+description = "3-shake official website"
+expected_status = 200
+
+[[targets]]
+type = "http"
+url = "https://3-shake.com/404"
+description = "3-shake official website 404 page"
+expected_status = 200
