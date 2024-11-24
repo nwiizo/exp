@@ -25,8 +25,9 @@ cargo install --git https://github.com/nwiizo/exp
 ```
 
 ## 🛠️ Usage
+Read config.toml in the current directory
 ```bash
-exp config.toml
+exp 
 ```
 
 ## ⌨️ Key Bindings
