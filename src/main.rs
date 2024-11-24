@@ -30,10 +30,10 @@ async fn main() -> io::Result<()> {
         .unwrap_or_else(|| "config.toml".to_string());
 
     // Load configuration
-    let config_content =
-        fs::read_to_string(&config_path).expect(&format!("Failed to read {}", config_path));
-    let config: Config =
-        toml::from_str(&config_content).expect(&format!("Failed to parse {}", config_path));
+    let config_content = fs::read_to_string(&config_path)
+        .unwrap_or_else(|_| panic!("Failed to read {}", config_path));
+    let config: Config = toml::from_str(&config_content)
+        .unwrap_or_else(|_| panic!("Failed to parse {}", config_path));
 
     // Setup terminal
     enable_raw_mode()?;
