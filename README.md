@@ -3,12 +3,9 @@
     <img src=".github/Screenshot_0001.jpeg" alt="exp"/>
     <h1 align="center">exp</h1>
   </div>
-  <div>
-    🔍 exp - Terminal UI Network Monitor
-  </div>
-
 </div>
 
+# 🔍 exp - Terminal UI Network Monitor
 
 ## 🌟 Overview
 A TUI-based network monitoring tool that can monitor both ping and HTTP endpoints with a beautiful, interactive interface.
