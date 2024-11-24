@@ -23,7 +23,6 @@ A TUI-based network monitoring tool that can monitor both ping and HTTP endpoint
   - Scrollable content
 - 🎨 Color-coded Status:
   - ✅ Green: Healthy
-  - ⚠️ Yellow: Warning
   - ❌ Red: Error
 
 ## 🚀 Installation
